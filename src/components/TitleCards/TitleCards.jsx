@@ -8,7 +8,7 @@ const TitleCards = () => {
   const cardsRef = useRef();
 
 
-const handleWheel = (event)=>{
+/*const handleWheel = (event)=>{
   event.preventDefault();
   cardsRef.current.scrolleft += event.deltaY;
 
@@ -16,7 +16,7 @@ const handleWheel = (event)=>{
 
 useEffect(()=>{
   cardsRef.current.addEventListener('wheel',handleWheel);
-},[])
+},[])*/
   return (
     <div className='title-cards'>
       <h2>Popular on Netflix</h2>
