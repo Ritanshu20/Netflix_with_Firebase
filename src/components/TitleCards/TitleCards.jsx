@@ -7,6 +7,16 @@ import cards_data from '../../assets/cards/Cards_data'
 const TitleCards = ({title, category}) => {
 const cardsRef = useRef();
 
+
+/*const handleWheel = (event)=>{
+  event.preventDefault();
+  cardsRef.current.scrolleft += event.deltaY;
+
+}
+
+useEffect(()=>{
+  cardsRef.current.addEventListener('wheel',handleWheel);
+},[])*/
   return (
     <div className='title-cards'>
       <h2>{title?title : "Popular on Netflix"}</h2>
