@@ -3,6 +3,7 @@
 }
 .banner-img{
     width: 100%;
+    margin-top: 50px;
     mask-image: linear-gradient(to right, transparent, black 75%);
     -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
 }
